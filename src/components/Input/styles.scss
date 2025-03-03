@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  font-family: Roboto;
+}
+
+.overrides {
+  border: 1px solid #EBEBEB;
+  border-radius: 15px;
+  padding: 13px 0 13px 32px;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  color: '222#';
+
+  &::placeholder {
+    color: #D1D1D1;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -10px;
+  color: #D1D1D1;
+}

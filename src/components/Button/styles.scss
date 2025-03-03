@@ -1,0 +1,24 @@
+.button-overrides {
+  padding: 7px 26px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: Montserrat;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  width: fit-content;
+  justify-self: end;
+  
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}
+
+.bg-grey {
+  background-color: #7D7D7D;
+}
+
+.bg-green {
+  background-color: #2EE5AC;
+}
